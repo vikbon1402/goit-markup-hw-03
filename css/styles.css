@@ -41,6 +41,7 @@ body {
 .header-navigation{
     display: flex;
     align-items: center;
+    width: 1158px;
 }
 .header-logo-studio {
     color: #2e2f42;
@@ -114,6 +115,7 @@ body {
 
 .hero {
     padding-bottom: 120px;
+    padding: 188px 0;
 }
 .hero-container{
     background-color: #2e2f42;
@@ -167,12 +169,12 @@ body {
 
 .features {
     padding: 120px 0;
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .features-menu{
     display: flex;
     gap: 24px;
     width: 1128px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .visually-hidden {
     position: absolute;
@@ -268,6 +270,7 @@ body {
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
+    width: calc((100%-48px)/3);
 }
 
 .portfolio-menu {
@@ -293,8 +296,6 @@ body {
 .portfolio-menu-item {
     border: 1px solid, color: #e7e9fc;
     background: var(--WHITE, #FFF);
-    width: 1128px;
-    width: calc((100%-48px)/3);
 }
 
 .container-portfolio {
