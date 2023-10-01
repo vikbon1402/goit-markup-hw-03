@@ -195,10 +195,10 @@ body {
 
 .team {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .team-menu{
     display: flex;
-    padding: 120px 0;
     gap: 24px;
 }
 .team-title {
@@ -213,13 +213,15 @@ body {
     padding-top: 120px;
     margin-bottom: 72px;
 }
+.team-menu-item:first-child{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 .container-names{
     padding: 32px 0;
 }
 .team-menu-item {
        background: var(--WHITE, #FFF);
-       flex-basis: calc((100% - 3 * 24px) / 4);
-       border-radius: 0px 0px 4px 4px;
    }
 
 .team-menu-photos {
