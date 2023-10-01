@@ -181,11 +181,9 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-.features-menu-item:first-child {
+.features-menu-item:first-child{
     width: calc((100% - 72px) / 4);
 }
-
 .features-menu-subtitle {
     color: #2e2f42;
     font-family: Roboto;
@@ -288,9 +286,8 @@ body {
     padding-top: 120px;
     margin-bottom: 72px;
 }
-
-.portfolio-menu-item:first-child {
-    width:calc((100%-48px)/3);
+.portfolio-menu-item:first-child{
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-menu-item {
     border: 1px solid, color: #e7e9fc;
@@ -343,8 +340,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -355,10 +350,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+.footer-logo,
+.footer-logo-studio{
     display: inline-block;
     margin-bottom: 16px;
 }
-
 .footer-text {
     color: #f4f4fd;
     font-family: Roboto;
