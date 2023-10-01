@@ -11,10 +11,11 @@ p, h1, h2, h3{
     margin-bottom: 0;
 }
 ul {
-    padding: 0;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0;
     list-style-type: none;
+    padding: 0;
 }
 body {
     font-family: 'Raleway', sans-serif;
@@ -23,11 +24,11 @@ body {
     background-color: #ffffff;
 }
 .container{
-            max-width: 1158px;
-            padding-left: 15px;
-            padding-right: 15px;
-            margin: 0 auto;
-            display: flex;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
 }
 .header{
     padding-top: 24px;
@@ -167,7 +168,7 @@ body {
 .features-menu{
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .visually-hidden {
     position: absolute;
@@ -181,9 +182,7 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.features-menu-item{
-    flex-basis: calc((100% - 3 * 24px) / 4);
-}
+
 .features-menu-subtitle {
     color: #2e2f42;
     font-family: Roboto;
@@ -290,7 +289,7 @@ body {
 .portfolio-menu-item {
     border: 1px solid, color: #e7e9fc;
     background: var(--WHITE, #FFF);
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .container-portfolio {
