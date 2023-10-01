@@ -35,7 +35,7 @@ body {
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    max-width: 1128px;
+    max-width: 1158px;
     width: 100%;
     flex-shrink: 0;
 }
@@ -88,6 +88,7 @@ body {
 .address {
     font-style: normal;
     padding-left: 332px;
+    display: flex;
 }
 .address-menu{
     display: flex;
@@ -114,7 +115,6 @@ body {
 
 .hero {
     padding-bottom: 120px;
-    padding: 188px 0;
 }
 .hero-container{
     background-color: #2e2f42;
