@@ -35,8 +35,7 @@ body {
     padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
     display: flex;
-    max-width: 1158px;
-    width: 100%;
+    width: 1158px;
     flex-shrink: 0;
 }
 .header-navigation{
@@ -172,6 +171,7 @@ body {
 .features-menu{
     display: flex;
     gap: 24px;
+    width: 1128px;
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .visually-hidden {
@@ -293,6 +293,7 @@ body {
 .portfolio-menu-item {
     border: 1px solid, color: #e7e9fc;
     background: var(--WHITE, #FFF);
+    width: 1128px;
     width: calc((100%-48px)/3);
 }
 
