@@ -40,7 +40,6 @@ body {
 .header-navigation{
     display: flex;
     align-items: center;
-    width: 1158px;
 }
 .header-logo-studio {
     color: #2e2f42;
@@ -194,7 +193,7 @@ body {
     margin-bottom: 8px;
 }
 .features-menu-item{
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100%-3*24px)/4);
 }
 .features-menu-text {
     color: #434455;
@@ -266,7 +265,6 @@ body {
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
-    width: calc((100%-48px)/3);
 }
 
 .portfolio-menu {
@@ -292,6 +290,7 @@ body {
 .portfolio-menu-item {
     border: 1px solid #e7e9fc;
     background: var(--WHITE, #FFF);
+    width: calc((100%-48px)/3);
 }
 
 .container-portfolio {
