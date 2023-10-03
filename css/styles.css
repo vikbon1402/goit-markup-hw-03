@@ -193,7 +193,7 @@ body {
     margin-bottom: 8px;
 }
 .features-menu-item{
-    flex-basis: calc((100%-3*24px)/4);
+    flex-basis: calc((100% - 3*24px)/4);
 }
 .features-menu-text {
     color: #434455;
@@ -234,7 +234,6 @@ body {
 
 .team-menu-photos {
     background: url(<path-to-image>), #d3d3d3;
-    margin-bottom: 32px;
     display: block;
 }
 
@@ -281,12 +280,10 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
 .portfolio-menu-item {
-    border: 1px solid #e7e9fc;
     background:#FFF;
     width: calc((100% - 48px) / 3);
 }
